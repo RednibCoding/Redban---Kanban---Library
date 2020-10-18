@@ -1,0 +1,58 @@
+#redban-root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: smaller ;
+	display: flex;
+	justify-content: left;
+}
+
+#redban-root .redban-task-container {
+    display: flex;
+    flex-direction: column;
+
+	min-height: 250px;
+	max-width: 250px;
+	min-width: 250px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #EFF1F3;
+    padding: 10px;
+    border: 1px solid #E1E4E8;
+    border-radius: 5px;
+}
+
+#redban-root .redban-task-container-header {
+	font-weight: bold;
+    flex-grow: 0;
+}
+
+#redban-root .redban-task-container-dropzone {
+	flex-grow: 1;
+	/* background-color: #808080; */
+}
+
+#redban-root .redban-task {
+    display: flex;
+    flex-direction: column;
+    cursor: grab;
+
+    background-color: #ffffff;
+	font-weight: normal;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #E1E4E8;
+	border-radius: 5px;
+}
+
+#redban-root .redban-task-head {
+    font-weight: bold;
+    flex-grow: 0;
+}
+
+#redban-root .redban-task-id {
+    font-size: small;
+    flex-grow: 0;
+}
+
+#redban-root .redban-task-body {
+    flex-grow: 1;
+}
