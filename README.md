@@ -62,9 +62,9 @@ redban.addTask("To do", "#5", "And this also", "This is important!!!");
 redban.addTask("To do", "#6", "And that also", "This is important!!!");
 ```
 
-##Utilities
+### Utilities
 
-###Get a column by it's id
+#### Get a column by it's id
 Make sure to use this function instead of using "document.getElementById"
 to make sure, only elements within "redban-root" are considered
 otherwise you may run into name/id clashing problems
@@ -72,12 +72,12 @@ otherwise you may run into name/id clashing problems
 redban.getColumnById(id)
 ```
 
-###Returns an array that contains all column names/ids
+#### Returns an array that contains all column names/ids
 ```javascript
 redban.getColumnIds()
 ```
 
-###Get a task by it's id
+#### Get a task by it's id
 Make sure to use this function instead of using "document.getElementById"
 to make sure, only elements within "redban-root" are considered
 otherwise you may run into name/id clashing problems
@@ -85,39 +85,39 @@ otherwise you may run into name/id clashing problems
 redban.getTaskById(taskId)
 ```
 
-###Get all tasks of a specific column returns them as HTMLCollection
+#### Get all tasks of a specific column returns them as HTMLCollection
 ```javascript
 redban.getTasksInColumn(columnId)
 ```
 
-###Returns an array that contains all task id's in a specific column
+#### Returns an array that contains all task id's in a specific column
 ```javascript
 redban.getTaskIdsInColumn(columnId)
 ```
 
-###Get the columnId the task is present in
+#### Get the columnId the task is present in
 ```javascript
 redban.getColumnIdOfTask(taskId)
 ```
 
-###Returns the head content of a task with the given id
+#### Returns the head content of a task with the given id
 ```javascript
 redban.getTaskHeadContent(taskId)
 ```
 
-###Returns the body content of a task with the given id
+#### Returns the body content of a task with the given id
 ```javascript
 redban.getTaskBodyContent(taskId)
 ```
 
-###Add a task column (e.g. To do, In Progress, Done etc...) Note: id must be unique
+#### Add a task column (e.g. To do, In Progress, Done etc...) Note: id must be unique
 ```javascript
 redban.addColumn(id)
 ```
 
-###Add a new task to an existing column Note: taskId must be unique
+#### Add a new task to an existing column Note: taskId must be unique
 ```javascript
 redban.addTask(columnId, taskId, taskHeader, taskText)
 ```
 
-####More comming soon
+#### More comming soon
