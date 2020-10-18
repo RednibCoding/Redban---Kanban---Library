@@ -62,7 +62,8 @@ redban.addTask("To do", "#5", "And this also", "This is important!!!");
 redban.addTask("To do", "#6", "And that also", "This is important!!!");
 ```
 
-#Utilities
+##Utilities
+
 ####Get a column by it's id
 Make sure to use this function instead of using "document.getElementById"
 to make sure, only elements within "redban-root" are considered
